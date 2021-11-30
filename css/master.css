@@ -144,7 +144,6 @@ li:hover {
 
 .title-contents {
   padding: 2.5rem 1rem;
-  /* border: 2px solid white; */
 }
 
 /* Borrowed then Modified Timeline Codes */
@@ -181,4 +180,9 @@ ul.timeline>li::before {
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+
+ul.timeline>li:hover {
+  background-color: #3c3c46;
+  transition: .2s;
 }
