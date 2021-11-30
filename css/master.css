@@ -1,0 +1,180 @@
+/*
+    COLOR PALETTE:
+    #3c3c46 - default title/footer bg
+    #F3F6F4 - default content bg
+    #EBEEF3 - alternate content bg
+    #CCC - text
+    #FAFAFA - constrast text
+    tomato - highlight text
+    red - hover text
+ */
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 320px;
+}
+
+h1 {
+  color: tomato;
+  font-family: 'Reenie Beanie', cursive;
+  transition: color .2s;
+}
+
+h3 {
+  color: tomato;
+  transition: color .2s;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  transition: background-color .2s;
+}
+
+/* HOVER ANIMATION */
+h1:hover, h3:hover, a:hover {
+  color: red;
+}
+
+li:hover {
+  color: #FAFAFA;
+  background-color: red;
+  font-size: 1.2rem;
+}
+
+.prof-pic:hover {
+  border: 5px solid tomato;
+}
+
+/** ID SELECTORS **/
+#title {
+  color: #CCC;
+  background-color: #3c3c46;
+  height: fit-content;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#site-contents {
+  background-color: #F3F6F4;
+}
+
+#footer {
+  color: #CCC;
+  background-color: #3c3c46;
+}
+
+/* NAVIGATION */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2.5rem;
+}
+
+.navbar-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/** CLASS SELECTORS **/
+.alt-content-bg {
+  background-color: #EBEEF3;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+    color: #FAFAFA;
+    background-color: tomato;
+}
+
+.btn-color {
+  color: #FAFAFA;
+  background-color: tomato;
+  margin: 2.5rem 0;
+  font-size: 1.2rem;
+}
+
+.bi-linkedin, .bi-braces {
+  color: tomato;
+  transition: color .2s;
+}
+
+.career-technologies {
+  font-weight: 200;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.date {
+  color: tomato;
+}
+
+.prof-pic {
+  width: 100%;
+  border-radius: 100%;
+  transition: border 0.4s;
+}
+
+.row {
+  padding: 1rem 0;
+}
+
+.skill-rating {
+  color: tomato;
+}
+
+.title-contents {
+  padding: 2.5rem 1rem;
+  /* border: 2px solid white; */
+}
+
+/* Borrowed Timeline Codes */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline::before {
+  content: ' ';
+  background: tomato;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+}
+
+ul.timeline>li {
+  margin: 20px 0;
+  padding-left: 20px;
+  transition: .2s;
+}
+
+ul.timeline>li::before {
+  content: ' ';
+  background: #F3F6F4;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid tomato;
+  margin-top: 5.5px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
