@@ -29,6 +29,10 @@ h3 {
   transition: color .2s;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 h5 {
   font-weight: 300;
 }
