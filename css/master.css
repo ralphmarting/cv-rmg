@@ -104,8 +104,8 @@ li:hover {
   bottom: 0;
   right: 0;
   font-size: 4.5vmin;
-    color: #FAFAFA;
-    background-color: tomato;
+  color: #FAFAFA;
+  background-color: tomato;
 }
 
 .btn-color {
@@ -130,6 +130,10 @@ li:hover {
 
 .date {
   color: tomato;
+}
+
+.inactive {
+  color: #CCC;
 }
 
 .prof-pic {
