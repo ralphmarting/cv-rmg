@@ -115,11 +115,17 @@ li:hover {
   background-color: tomato;
   margin: 2.5rem 0;
   font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .bi-footer, .bi-braces {
   color: tomato;
   transition: color .2s;
+}
+
+.bi-footer {
+  font-size: 2rem;
 }
 
 .career-technologies {
