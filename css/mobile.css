@@ -1,0 +1,55 @@
+@media (max-width: 576px) {
+  li {
+    text-align: center;
+  }
+
+  .timeline>li {
+    text-align: left;
+  }
+
+  .container-fluid {
+    padding: 3% 7%;
+  }
+
+  .date {
+    text-align: left;
+  }
+
+  .skill-rating {
+    display: block;
+    float: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #title {
+    text-align: center;
+  }
+
+  #footer {
+    font-size: 1.1rem;
+  }
+
+  .title-contents {
+    padding: 2.5rem 1rem;
+  }
+}
+
+@media (max-width: 1011px) {
+  .navbar {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1167px) {
+  .skill-rating {
+    display: block;
+    float: none;
+  }
+}
+
+@media (min-width: 814px) and (max-width: 1011px) {
+  .title-contents {
+    padding: 2.5rem .5rem;
+  }
+}

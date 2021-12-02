@@ -22,6 +22,7 @@ h1 {
   color: tomato;
   font-family: 'Reenie Beanie', cursive;
   transition: color .2s;
+  font-size: 4rem;
 }
 
 h3 {
@@ -92,6 +93,7 @@ li:hover {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 300;
+  text-align: right;
 }
 
 /** CLASS SELECTORS **/
@@ -148,6 +150,7 @@ li:hover {
 
 .skill-rating {
   color: tomato;
+  float: right;
 }
 
 .title-contents {
@@ -155,12 +158,12 @@ li:hover {
 }
 
 /* Borrowed then Modified Timeline Codes */
-ul.timeline {
+.timeline {
   list-style-type: none;
   position: relative;
 }
 
-ul.timeline::before {
+.timeline::before {
   content: ' ';
   background: tomato;
   display: inline-block;
@@ -170,13 +173,13 @@ ul.timeline::before {
   height: 100%;
 }
 
-ul.timeline>li {
+.timeline>li {
   margin: 20px 0;
   padding-left: 20px;
   transition: .2s;
 }
 
-ul.timeline>li::before {
+.timeline>li::before {
   content: ' ';
   background: #F3F6F4;
   display: inline-block;
@@ -190,7 +193,7 @@ ul.timeline>li::before {
   z-index: 400;
 }
 
-ul.timeline>li:hover {
+.timeline>li:hover {
   background-color: #3c3c46;
   transition: .2s;
 }
