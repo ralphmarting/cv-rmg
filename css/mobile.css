@@ -1,63 +1,52 @@
-@media (orientation: portrait) {
+@media (orientation: portrait) and (pointer: coarse),
+(orientation: portrait) and (pointer: fine) {
   body, p {
-    font-size: 2.2rem;
+    font-size: 3.7vmin;
   }
 
   h1 {
-    font-size: 7.7rem;
-    margin: 1.5rem auto;
+    font-size: 12vmin;
   }
 
   h2 {
-    font-size: 3.3rem;
-    margin: 1.5rem auto;
+    font-size: 5.5vmin;
   }
 
   h3 {
-    font-size: 3rem;
-    margin: 1.5rem auto;
+    font-size: 5vmin;
   }
 
   h4 {
-    font-size: 2.8rem;
-    margin: 1.5rem auto;
+    font-size: 4.5vmin;
   }
 
   h5 {
-    font-size: 2.5rem;
-    margin: 1.5rem auto;
+    font-size: 4vmin;
   }
 
   li:hover {
-    font-size: 2.5rem;
-    margin: 1.5rem auto;
+    font-size: 4vmin;
   }
 
   #footer {
-    font-size: 2.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    font-size: 4vmin;
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
   }
 
   .bi-footer {
-    font-size: 4rem;
+    font-size: 8vmin;
   }
 
   .btn-back-to-top {
     font-size: 7vmin;
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
   }
 
   .btn-color {
-    font-size: 2.5rem;
-    margin-top: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .date {
-    padding-left: 2rem;
+    font-size: 4.1vmin;
+    margin-top: 10vmin;
+    padding-left: 2.5vmin;
+    padding-right: 2.5vmin;
   }
 
   .title-contents {
@@ -66,26 +55,32 @@
   }
 
   .nav-link {
-    font-size: 2.5rem;
+    font-size: 5vmin;
   }
 
   .navbar-brand {
-    font-size: 5rem;
+    font-size: 7.7vmin;
   }
 
   .navbar-toggler-icon {
-    font-size: 2.5rem;
-  }
-
-  .timeline>li {
-    font-size: 2.5rem;
+    font-size: 4vmin;
   }
 
   .timeline>li::before {
-    margin-top: 15px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
+    width: 5vmin;
+    height: 5vmin;
+  }
+}
+
+@media (orientation: portrait) and (pointer: coarse) {
+  .date {
+    padding-left: 1.5rem;
+  }
+
+  .timeline>li::before {
+    margin-top: 2vmin;
+    width: 4vmin;
+    height: 4vmin;
   }
 }
 
