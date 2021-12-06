@@ -18,6 +18,11 @@ body {
   min-width: 320px;
 }
 
+footer {
+  color: #CCC;
+  background-color: #3c3c46;
+}
+
 h1 {
   color: tomato;
   font-family: 'Reenie Beanie', cursive;
@@ -69,11 +74,6 @@ li:hover {
 
 #site-contents {
   background-color: #F3F6F4;
-}
-
-#footer {
-  color: #CCC;
-  background-color: #3c3c46;
 }
 
 /* NAVIGATION */
