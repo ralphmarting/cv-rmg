@@ -1,7 +1,7 @@
 $('.collapse-toggle').click(function() {
   $('.collapse-toggle').toggle();
 
-  var collapseElementList = [].slice.call($('.accordion-collapse'));
+  let collapseElementList = [].slice.call($('.accordion-collapse'));
   collapseElementList.map(function(collapseEl) {
     new bootstrap.Collapse(collapseEl);
   });
