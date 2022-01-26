@@ -44,3 +44,5 @@ $('#navEducation').click(function() {
     scrollTop: $("#education").offset().top
   }, 500);
 });
+
+$('.copyright-year').append(" - "+ new Date().getFullYear())
