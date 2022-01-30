@@ -1,6 +1,6 @@
 /*
     COLOR PALETTE:
-    #3c3c46 - default title/footer bg
+    #212121 - default title/footer bg
     #F3F6F4 - default content bg
     #EBEEF3 - alternate content bg
     #CCC - text
@@ -20,7 +20,7 @@ body {
 
 footer {
   color: #CCC;
-  background-color: #3c3c46;
+  background-color: #212121;
 }
 
 h1 {
@@ -68,7 +68,7 @@ li:hover {
 /** ID SELECTORS **/
 #title {
   color: #CCC;
-  background-color: #3c3c46;
+  background-color: #212121;
   min-height: fit-content;
   width: 100%;
 }
@@ -217,6 +217,6 @@ li:hover {
 }
 
 .timeline>li:hover {
-  background-color: #3c3c46;
+  background-color: #212121;
   transition: .2s;
 }
