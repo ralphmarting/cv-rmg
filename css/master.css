@@ -1,16 +1,6 @@
-/*
-    COLOR PALETTE:
-    #212121 - default title/footer bg
-    #F3F6F4 - default content bg
-    #EBEEF3 - alternate content bg
-    #CCC - text
-    #FAFAFA - constrast text
-    tomato - highlight text
-    red - hover text
- */
 a {
   text-decoration: none;
-  color: tomato;
+  color: #ff4040;
 }
 
 body {
@@ -20,18 +10,19 @@ body {
 
 footer {
   color: #CCC;
-  background-color: #212121;
+  background: radial-gradient(at top left, #34343b 0%, #2e2e33 35%, #1f1f21 70%, #171717 100%);
+  background-repeat: no-repeat;
 }
 
 h1 {
-  color: tomato;
+  color: #ff4040;
   font-family: 'Reenie Beanie', cursive;
   transition: color .2s;
   font-size: 4rem;
 }
 
 h3 {
-  color: tomato;
+  color: #ff4040;
   transition: color .2s;
 }
 
@@ -52,25 +43,27 @@ li {
 
 /* HOVER ANIMATION */
 h1:hover, h3:hover, a:hover {
-  color: red;
+  color: #ff0000;
 }
 
 li:hover {
   color: #FAFAFA;
-  background-color: red;
+  background: #ff0000;
   font-size: 1.2rem;
 }
 
 .prof-pic:hover {
-  border: 5px solid tomato;
+  border: 5px solid #ff4040;
 }
 
 /** ID SELECTORS **/
 #title {
   color: #CCC;
-  background-color: #212121;
+  background: radial-gradient(at top left, #34343b 0%, #2e2e33 35%, #1f1f21 70%, #171717 100%);
+  background-repeat: no-repeat;
   min-height: fit-content;
   width: 100%;
+  box-shadow: 0px 0px 250px #000 inset;
 }
 
 #site-contents {
@@ -99,7 +92,7 @@ li:hover {
 
 /** CLASS SELECTORS **/
 .accordion-button:focus {
-  box-shadow: 0 0 0 .25rem tomato;
+  box-shadow: 0 0 0 .25rem #ff4040;
 }
 
 .accordion-button[aria-expanded='true'] {
@@ -121,13 +114,13 @@ li:hover {
   right: 0;
   font-size: 4.5vmin;
   color: #FAFAFA;
-  background-color: tomato;
+  background-color: #ff4040;
   z-index: 77;
 }
 
 .btn-color {
   color: #FAFAFA;
-  background-color: tomato;
+  background-color: #ff4040;
   margin: 2.5rem 0;
   font-size: 1.2rem;
   padding-left: 1rem;
@@ -135,7 +128,7 @@ li:hover {
 }
 
 .bi-footer, .bi-braces {
-  color: tomato;
+  color: #ff4040;
   transition: color .2s;
 }
 
@@ -156,11 +149,7 @@ li:hover {
 }
 
 .date {
-  color: tomato;
-}
-
-.inactive {
-  color: #CCC;
+  color: #ff4040;
 }
 
 .prof-pic {
@@ -174,7 +163,7 @@ li:hover {
 }
 
 .skill-rating {
-  color: tomato;
+  color: #ff4040;
   float: right;
 }
 
@@ -189,7 +178,7 @@ li:hover {
 
 .timeline::before {
   content: ' ';
-  background: tomato;
+  background: #ff4040;
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -209,7 +198,7 @@ li:hover {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 2px solid tomato;
+  border: 2px solid #ff4040;
   margin-top: 5.5px;
   left: 20px;
   width: 20px;
@@ -217,6 +206,12 @@ li:hover {
 }
 
 .timeline>li:hover {
-  background-color: #212121;
+  background: radial-gradient(at top left, #34343b 0%, #2e2e33 35%, #1f1f21 70%, #171717 100%);
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 5px #000;
   transition: .2s;
+}
+
+.timeline>li:last-child {
+  color: #CCC;
 }
