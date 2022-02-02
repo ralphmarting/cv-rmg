@@ -34,28 +34,42 @@ Now I maintain it to keep the content information up to date. As soon as I gain 
    - Time
    - Education title
    - Academe
-   - \(if applicable) Summary
-   - \(if applicable) Award(s)
+   - \(*if applicable*) Summary
+   - \(*if applicable*) Award(s)
    - Skills
-   - \(if applicable) Place
-   - \(if applicable) Link(s) (To the Certificate, or Course)
+   - \(*if applicable*) Place
+   - \(*if applicable*) Link(s) (To the Certificate, or Course)
 
 ### :open_file_folder: src code Folder Structure
-/cv-rmg
-├── css                 // Folder for all CSS files
-│  ├── master.css       // src code for main styles
-│  ├── mobile.css       // src code for mobile adjustments
-├── img                 // folder for all img resources
-│  ├── favicon          // folder for favicon
-│  │  ├── favicon.ico   // img icon for favicon
-│  │  ├── rmg-con.png   // high reso img src for favicon
-│  ├── Mart.jpg         // high reso img src of me
-├── js                  // folder for all JS files
-│  ├── career.js        // src code for career contents as js object array
-│  ├── education.js     // src code for education contents as js object array
-│  ├── index.js         // src code for main site behaviour
-├── index.html          // src code for homepage
-├── README.md           // README
+> /cv-rmg
+>
+> ├── css                 // Folder for all CSS files
+>
+> │  ├── master.css       // src code for main styles
+>
+> │  ├── mobile.css       // src code for mobile adjustments
+>
+> ├── img                 // folder for all img resources
+>
+> │  ├── favicon          // folder for favicon
+>
+> │  │  ├── favicon.ico   // img icon for favicon
+>
+> │  │  ├── rmg-con.png   // high reso img src for favicon
+>
+> │  ├── Mart.jpg         // high reso img src of me
+>
+> ├── js                  // folder for all JS files
+>
+> │  ├── career.js        // src code for career contents as js object array
+>
+> │  ├── education.js     // src code for education contents as js object array
+>
+> │  ├── index.js         // src code for main site behaviour
+>
+> ├── index.html          // src code for homepage
+>
+> ├── README.md           // README
 
 ### :pushpin: TODO
 - [ ] Dynamically populate content of:
