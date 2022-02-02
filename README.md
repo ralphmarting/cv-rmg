@@ -24,7 +24,7 @@ Now I maintain it to keep the content information up to date. As soon as I gain 
    - Position title
    - Company
    - Job summary
-   - Skills
+   - New Skills
    - Place
 
 4. **Education**
