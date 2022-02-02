@@ -153,15 +153,15 @@ function populateEducation() {
           ""
         ) +
         (
-          entry.location ?
-          "<p><i class='bi bi-geo-alt-fill'></i> " + entry.location + "</p>" :
-          ""
-        ) +
-        (
           entry.technologies ?
           `<p class="career-technologies">
             <i class="bi bi-braces"></i> ${entry.technologies}
           </p>` :
+          ""
+        ) +
+        (
+          entry.location ?
+          "<p><i class='bi bi-geo-alt-fill'></i> " + entry.location + "</p>" :
           ""
         ) +
         (
