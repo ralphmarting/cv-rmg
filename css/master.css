@@ -52,6 +52,10 @@ li:hover {
   font-size: 1.2rem;
 }
 
+li:hover .skill-rating {
+  color: #FAFAFA;
+}
+
 .prof-pic:hover {
   border: 5px solid #ff4040;
 }
