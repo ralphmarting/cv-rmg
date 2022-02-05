@@ -199,8 +199,7 @@ $(document).ready(function() {
                   ${reference.linkText}
                   </a>`;
                 }).join('')
-              } <
-              /p>` :
+              } </p>` :
               ""
             )
           }
