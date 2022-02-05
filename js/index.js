@@ -109,103 +109,103 @@ $(document).ready(function() {
   function populateCareer() {
     career.forEach(entry => {
       $('#career .timeline').append(`
-    <li>
-    <p class="date">
-    ${
-    entry.startDate ?
-    getDateDiff(entry.startDate, entry.endDate) :
-    "Future"
-    }
-    </p>
-    <h4>${entry.role}</h4>
-    <h5><i class="bi bi-building"></i> ${entry.company}</h5>
-    <p>${entry.description}</p>
-    <p class="career-technologies">
-    <i class="bi bi-braces"></i> ${entry.technologies}
-    </p>
-    <p>
-    <i class="bi bi-geo-alt-fill"></i>
-    ${entry.location}
-    </p>
-    </li>
-  `)
+        <li>
+          <p class="date">
+          ${
+          entry.startDate ?
+          getDateDiff(entry.startDate, entry.endDate) :
+          "Future"
+          }
+          </p>
+          <h4>${entry.role}</h4>
+          <h5><i class="bi bi-building"></i> ${entry.company}</h5>
+          <p>${entry.description}</p>
+          <p class="career-technologies">
+          <i class="bi bi-braces"></i> ${entry.technologies}
+          </p>
+          <p>
+          <i class="bi bi-geo-alt-fill"></i>
+          ${entry.location}
+          </p>
+        </li>
+      `)
     })
   }
 
   function populateEducation() {
     education.forEach(entry => {
-          $('#education .timeline').append(`
-    <li>
-    <p class="date">
-    ${
-      entry.endDate ? (
-        entry.startDate ?
-        getDateDiff(entry.startDate, entry.endDate) :
-        entry.endDate.toLocaleDateString('en-PH', {
-          year: 'numeric',
-          month: 'numeric'
-        }) + " (4 yrs)"
-      ) :
-      "Future"
-    }
-    </p>
-    <h4>${entry.name}</h4>
-    <h5><i class="bi bi-book"></i> ${entry.academe}</h5>
-    ${(
-      entry.description ?
-      "<p>" + entry.description + "</p>" :
-      ""
-      ) +
-      (
-      entry.awards ?
-      entry.awards.map(award => {
-      return `<p><i class="bi bi-award"></i> ${
-      award.title +
-      (
-      award.held ?
-      "<br>" + award.held :
-      ""
-      ) +
-      (
-      award.link ?
-      ` (<i class="bi bi-link-45deg"></i>
-      <a href=${award.link} target="_blank">Test Result</a>)` :
-      ""
-      )}
-      </p>`;
-      }).join('') :
-      ""
-      ) +
-      (
-      entry.technologies ?
-      ` < p class = "career-technologies" >
-            <
-            i class = "bi bi-braces" > < /i> ${entry.technologies} < /
-            p > ` :
-      ""
-      ) +
-      (
-      entry.location ?
-      "<p><i class='bi bi-geo-alt-fill'></i> " + entry.location + "</p>" :
-      ""
-      ) +
-      (
-      entry.references ?
-      ` < p >
-            ${
-              entry.references.map(reference => {
-                return `<i class="bi bi-link-45deg"></i>
-                <a href=${reference.link} target="_blank">
-                ${reference.linkText}
-                </a>`;
-              }).join('')
-            } <
-            /p>` :
+      $('#education .timeline').append(`
+        <li>
+          <p class="date">
+          ${
+            entry.endDate ? (
+              entry.startDate ?
+              getDateDiff(entry.startDate, entry.endDate) :
+              entry.endDate.toLocaleDateString('en-PH', {
+                year: 'numeric',
+                month: 'numeric'
+              }) + " (4 yrs)"
+            ) :
+            "Future"
+          }
+          </p>
+          <h4>${entry.name}</h4>
+          <h5><i class="bi bi-book"></i> ${entry.academe}</h5>
+          ${(
+            entry.description ?
+            "<p>" + entry.description + "</p>" :
             ""
-          )
-        } <
-        /li>
-        `)
+            ) +
+            (
+              entry.awards ?
+              entry.awards.map(award => {
+                return `<p><i class="bi bi-award"></i>
+                  ${
+                    award.title +
+                    (
+                      award.held ?
+                      "<br>" + award.held :
+                      ""
+                    ) +
+                    (
+                    award.link ?
+                    ` (<i class="bi bi-link-45deg"></i>
+                    <a href=${award.link} target="_blank">Test Result</a>)` :
+                    ""
+                  )}
+                  </p>`;
+                }).join('') :
+              ""
+            ) +
+            (
+              entry.technologies ?
+              `<p class = "career-technologies">
+                <i class = "bi bi-braces"></i> ${entry.technologies}
+              </p>` :
+              ""
+            ) +
+            (
+              entry.location ?
+              "<p><i class='bi bi-geo-alt-fill'></i> " + entry.location + "</p>" :
+              ""
+            ) +
+            (
+              entry.references ?
+              `<p>
+              ${
+                entry.references.map(reference => {
+                  return `<i class="bi bi-link-45deg"></i>
+                  <a href=${reference.link} target="_blank">
+                  ${reference.linkText}
+                  </a>`;
+                }).join('')
+              } <
+              /p>` :
+              ""
+            )
+          }
+        </li>
+      `)
     })
   }
 
