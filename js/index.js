@@ -1,11 +1,11 @@
 $(document).ready(function() {
-  $('.collapsed').click(function() {
-    if ($('.collapsed').length === 0) {
+  $('#skillsAccordion .collapsed').click(function() {
+    if ($('#skillsAccordion .collapsed').length === 0) {
       $('.collapse-toggle:contains("Collapse")').show();
       $('.collapse-toggle:contains("Expand")').hide();
     }
 
-    if ($('.collapsed').length === 6) {
+    if ($('#skillsAccordion .collapsed').length === 6) {
       $('.collapse-toggle:contains("Expand")').show();
       $('.collapse-toggle:contains("Collapse")').hide();
     }
@@ -74,6 +74,7 @@ $(document).ready(function() {
   function getDateDiff(d1, d2) {
     let diff;
 
+    //calculate number of diff in months
     diff = (d2.getFullYear() - d1.getFullYear()) * 12;
     diff -= d1.getMonth();
     diff += d2.getMonth();
@@ -81,13 +82,29 @@ $(document).ready(function() {
 
     if (diff <= 0) {
       diff = "";
-    } else if (diff < 12) {
-      diff = " (" + diff + " mo" + (diff > 1 ? "s" : "") + ")";
-    } else {
-      diff = " (" + Math.floor(diff / 12) + " yr" +
-        (Math.floor(diff / 12) > 1 ? "s" : "") +
-        (diff % 12 > 0 ? (" " + diff % 12 + " mo" + (diff % 12 > 1 ? "s" : "")) : "") +
-        ")"
+    }
+    else {
+      let resultFormat = " (";
+
+      if (diff > 12) {
+        const yearDiff = Math.floor(diff / 12);
+
+        resultFormat += yearDiff + " yr";
+        if (yearDiff > 1) {
+          resultFormat += "s"
+        }
+        resultFormat += " ";
+
+        diff %= 12;
+      }
+
+      resultFormat += diff + " mo";
+      if (diff > 1) {
+        resultFormat += "s";
+      }
+      resultFormat += ")";
+      
+      diff = resultFormat;
     }
 
     const options = {
@@ -112,9 +129,9 @@ $(document).ready(function() {
         <li>
           <p class="date">
           ${
-          entry.startDate ?
-          getDateDiff(entry.startDate, entry.endDate) :
-          "Future"
+            entry.startDate ?
+            getDateDiff(entry.startDate, entry.endDate) :
+            "Future"
           }
           </p>
           <h4>${entry.role}</h4>
