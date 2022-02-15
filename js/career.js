@@ -84,7 +84,7 @@ career = [{
       <br>
       Working with open-minded, and non-restrictive colleagues that can push
       my potential to new heights.`,
-    technologies: `Integrate SOLID/Clean Code into my process`,
+    technologies: `Working with Technology Experts that can improve my work`,
     location: "Cebu Province, or Zamboanga City"
   }
 ]

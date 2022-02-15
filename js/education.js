@@ -83,24 +83,42 @@ education = [{
   {
     key: 5,
     startDate: new Date(Date.UTC(2022, 0)),
-    endDate: new Date(),
+    endDate: new Date(Date.UTC(2022, 1)),
     name: "Qt 6 Core Intermediate with C++",
     academe: "Udemy - Online Course",
     description: `This second part of the three-parter set of courses is 11
-      hours long. Going beyond the basics of Qt 6.`,
-    technologies: "C++17, Qt 6 Core, Migration",
+      hours long. Going beyond the basics of Qt 6. A lot of useful topics were
+      discussed.: Memory management, Collections, Class Views, QSettings, File
+      systems, QDebug, Encoding, Compression, Serialization, Built-in Algorithms
+      and Macros, Working with OS, Timers, and Basic Threading.`,
+    technologies: "C++17, Qt 6 Core, Qt Concurrent, Migration",
     references: [{
-      link: "https://www.udemy.com/course/qt-6-core-intermediate/",
-      linkText: "Udemy Course"
+      link: "https://www.udemy.com/certificate/UC-cd3d9392-cdf8-4a04-ab04-ac8b46f443ac/",
+      linkText: "Udemy Course Certificate"
     }]
   },
   {
     key: 6,
-    name: "Qt 6 Core, Design Patterns, Modern C++(C++11/14/17)",
+    startDate: new Date(Date.UTC(2022, 1)),
+    endDate: new Date(),
+    name: "Qt 6 Core Advanced with C++",
+    academe: "Udemy - Online Course",
+    description: `A 13-hour long course, the last part of the three-parter set
+      of courses on Qt 6 Core. Starts on Threading, moving to Networking,
+      Libraries, Databases, Testing, and finally to Deployment.`,
+    technologies: "C++17, Qt 6 Core",
+    references: [{
+      link: "https://www.udemy.com/course/qt-6-core-advanced/",
+      linkText: "Udemy Course"
+    }]
+  },
+  {
+    key: 7,
+    name: "Qt Design Patterns, Modern C++(C++11/14/17)",
     academe: "Udemy - Online Course",
     references: [{
-        link: "https://www.udemy.com/user/bryan-cairns/",
-        linkText: "Qt Instructor"
+        link: "https://www.udemy.com/course/qt-5-design-patterns/",
+        linkText: "Design Patterns Course"
       },
       {
         link: "https://www.udemy.com/course/beg-modern-cpp/",
