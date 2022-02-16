@@ -114,7 +114,7 @@ education = [{
   },
   {
     key: 7,
-    name: "Qt Design Patterns, Modern C++(C++11/14/17)",
+    name: "Qt Design Patterns, Modern C++(C++11/14/17), Advanced Python(OOP)",
     academe: "Udemy - Online Course",
     references: [{
         link: "https://www.udemy.com/course/qt-5-design-patterns/",
@@ -123,6 +123,10 @@ education = [{
       {
         link: "https://www.udemy.com/course/beg-modern-cpp/",
         linkText: "C++ Course"
+      },
+      {
+        link: "https://www.udemy.com/course/the-python-pro-course/",
+        linkText: "Python Course"
       }
     ]
   }
