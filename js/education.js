@@ -91,7 +91,7 @@ education = [{
       discussed.: Memory management, Collections, Class Views, QSettings, File
       systems, QDebug, Encoding, Compression, Serialization, Built-in Algorithms
       and Macros, Working with OS, Timers, and Basic Threading.`,
-    technologies: "C++17, Qt 6 Core, Qt Concurrent, Migration",
+    technologies: "C++17, Qt 6 (Core, Concurrent, Migration)",
     references: [{
       link: "https://www.udemy.com/certificate/UC-cd3d9392-cdf8-4a04-ab04-ac8b46f443ac/",
       linkText: "Udemy Course Certificate"
@@ -106,7 +106,7 @@ education = [{
     description: `A 13-hour long course, the last part of the three-parter set
       of courses on Qt 6 Core. Starts on Threading, moving to Networking,
       Libraries, Databases, Testing, and finally to Deployment.`,
-    technologies: "C++17, Qt 6 Core",
+    technologies: "C++17, Qt 6 (Core, Concurrent, Network)",
     references: [{
       link: "https://www.udemy.com/course/qt-6-core-advanced/",
       linkText: "Udemy Course"
