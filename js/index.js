@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const NAVBAR_HEIGHT = 75;
+  const NAVBAR_HEIGHT = $('nav').height();
   const ANIMATION_SPEED = 200;
 
   $('#skillsAccordion .collapsed').click(function() {

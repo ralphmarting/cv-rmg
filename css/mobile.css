@@ -54,6 +54,10 @@
     text-align: center;
   }
 
+  #title .container-fluid {
+    padding-top: 10%;
+  }
+
   .nav-link {
     font-size: 5vmin;
   }
