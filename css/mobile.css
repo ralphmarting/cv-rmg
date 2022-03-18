@@ -80,7 +80,7 @@
   #title .container-fluid {
     padding-top: 10%;
   }
-  
+
   .date {
     padding-left: 1.5rem;
   }
@@ -131,11 +131,20 @@
 
 @media (max-width: 1011px) {
   .navbar {
-    padding-bottom: 0;
+    left: 7%;
+    right: 7%;
+    padding: 0;
   }
 
   #navbarToggler {
     padding-bottom: 3%;
+  }
+
+  .sticky-nav {
+    left: 0;
+    right: 0;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 }
 
