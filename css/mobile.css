@@ -77,6 +77,10 @@
 }
 
 @media (orientation: portrait) and (pointer: coarse) {
+  #title .container-fluid {
+    padding-top: 10%;
+  }
+  
   .date {
     padding-left: 1.5rem;
   }
