@@ -49,7 +49,12 @@ h1:hover, h3:hover, a:hover {
 li:hover {
   color: #FAFAFA;
   background: #ff0000;
-  font-size: 1.2rem;
+  transform: scale(1.07);
+  transition: .2s;
+}
+
+li:hover::before {
+  visibility: hidden;
 }
 
 li:hover .skill-rating {
