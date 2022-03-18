@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  const NAVBAR_HEIGHT = 75;
+  const ANIMATION_SPEED = 200;
+
   $('#skillsAccordion .collapsed').click(function() {
     if ($('#skillsAccordion .collapsed').length === 0) {
       $('.collapse-toggle:contains("Collapse")').show();
@@ -32,41 +35,49 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function() {
-    if ($(this).scrollTop()) {
-      $('.btn-back-to-top').fadeIn(200);
+    if(this.scrollY > 20) {
+      $('.navbar').addClass("sticky-nav");
+      $('.btn-back-to-top').fadeIn(ANIMATION_SPEED);
     } else {
-      $('.btn-back-to-top').fadeOut(200);
+      $('.navbar').removeClass("sticky-nav");
+      $('.btn-back-to-top').fadeOut(ANIMATION_SPEED);
     }
   });
 
   $('.btn-back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
-    }, 500);
+    }, ANIMATION_SPEED);
+  });
+
+  $('.navbar-brand').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, ANIMATION_SPEED);
   });
 
   $('#navAbout').click(function() {
     $('html, body').animate({
-      scrollTop: $("#about").offset().top
-    }, 500);
+      scrollTop: $("#about").offset().top - NAVBAR_HEIGHT
+    }, ANIMATION_SPEED);
   });
 
   $('#navSkills').click(function() {
     $('html, body').animate({
-      scrollTop: $("#skills").offset().top
-    }, 500);
+      scrollTop: $("#skills").offset().top - NAVBAR_HEIGHT
+    }, ANIMATION_SPEED);
   });
 
   $('#navCareer').click(function() {
     $('html, body').animate({
-      scrollTop: $("#career").offset().top
-    }, 500);
+      scrollTop: $("#career").offset().top - NAVBAR_HEIGHT
+    }, ANIMATION_SPEED);
   });
 
   $('#navEducation').click(function() {
     $('html, body').animate({
-      scrollTop: $("#education").offset().top
-    }, 500);
+      scrollTop: $("#education").offset().top - NAVBAR_HEIGHT
+    }, ANIMATION_SPEED);
   });
 
   $('.copyright-year').append(" - " + new Date().getFullYear())
@@ -103,7 +114,7 @@ $(document).ready(function() {
         resultFormat += "s";
       }
       resultFormat += ")";
-      
+
       diff = resultFormat;
     }
 
@@ -137,6 +148,27 @@ $(document).ready(function() {
           <h4>${entry.role}</h4>
           <h5><i class="bi bi-building"></i> ${entry.company}</h5>
           <p>${entry.description}</p>
+          ${(
+            entry.awards ?
+            entry.awards.map(award => {
+              return `<p><i class="bi bi-award"></i>
+                ${
+                  award.title +
+                  (
+                    award.held ?
+                    "<br>" + award.held :
+                    ""
+                  ) +
+                  (
+                  award.link ?
+                  ` (<i class="bi bi-link-45deg"></i>
+                  <a href=${award.link} target="_blank">Test Result</a>)` :
+                  ""
+                )}
+                </p>`;
+              }).join('') :
+            ""
+          )}
           <p class="career-technologies">
           <i class="bi bi-braces"></i> ${entry.technologies}
           </p>

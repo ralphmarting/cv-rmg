@@ -31,7 +31,7 @@ education = [{
         title: "Constant Dean's Lister",
       },
       {
-        title: "IBM Scholar Entire College",
+        title: "Consistent IBM Scholar",
       }
     ],
     location: "Cebu City, Cebu, Philippines",

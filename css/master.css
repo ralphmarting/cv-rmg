@@ -68,6 +68,12 @@ li:hover .skill-rating {
   color: #CCC;
   min-height: fit-content;
   width: 100%;
+  padding-bottom: 1.5%;
+}
+
+#title .container-fluid {
+  padding-top: 5%;
+  padding-bottom: 1.5%;
 }
 
 #site-contents {
@@ -76,7 +82,9 @@ li:hover .skill-rating {
 
 /* NAVIGATION */
 .navbar {
-  padding: 0 0 4.5rem;
+  left: 15%;
+  right: 15%;
+  top: 3%;
 }
 
 .navbar-brand {
@@ -92,6 +100,21 @@ li:hover .skill-rating {
   font-size: 1.2rem;
   font-weight: 300;
   text-align: right;
+}
+
+.sticky-nav {
+  background-color: #ff4040;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 15%;
+  transition: 0.2s;
+  z-index: 100;
+}
+
+.sticky-nav .navbar-item:hover {
+  color: white;
+  background-color: black;
 }
 
 /** CLASS SELECTORS **/

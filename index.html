@@ -54,7 +54,7 @@
 
     <!-- Nav Bar -->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark position-fixed">
         <a class="navbar-brand" href="javascript:void(0)">rmg;</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,22 +64,25 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav ms-auto">
             <li class="navbar-item">
-              <a class="nav-link" id="navAbout" href="javascript:void(0)">about</a>
+              <a class="nav-link" id="navAbout" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="javascript:void(0)">about</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" id="navSkills" href="javascript:void(0)">skills</a>
+              <a class="nav-link" id="navSkills" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="javascript:void(0)">skills</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" id="navCareer" href="javascript:void(0)">career</a>
+              <a class="nav-link" id="navCareer" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="javascript:void(0)">career</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" id="navEducation" href="javascript:void(0)">education</a>
+              <a class="nav-link" id="navEducation" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="javascript:void(0)">education</a>
             </li>
           </ul>
         </div>
       </nav>
+    </div>
 
-      <!-- Title -->
+
+    <!-- Title -->
+    <div class="container-fluid">
       <div class="row d-flex flex-wrap-reverse align-items-center">
         <div class="col-lg-7 col-md-6 title-contents">
           <h1>
@@ -119,15 +122,17 @@
         </p>
         <p>
           I enjoy solving the challenges of programming most especially in logic
-          sequencing, web designing, and optimizing codes. My main technical
+          sequencing, web developing, and optimizing codes. My main technical
           skills are modern C/C++ with Qt framework, Python, Bash, and Adobe
           PostScript. Though that is what my job requires me to master, I also
           have practical knowledge in Java, and some web technologies: HTML,
-          CSS, Javascript, MERN stack, and others more.
+          CSS, Javascript, MERN stack, and others more. Whenever there is a new
+          technology necessary for my career or its growth, I am eager to
+          self-study about it.
         </p>
         <p>
           Aside from end-to-end development, I also manage and lead: projects,
-          members, and components. Doing everything necessary in between. With
+          members, and components. Doing everything necessary in between. With a
           forward thinking approach, I consistently deliver and oftentimes even
           out deliver what is expected from me. Repeatedly solving problems in
           the processes, structures, information sharing among other things.
@@ -138,8 +143,8 @@
         <p>
           I know I will be in this industry for a while, and I want to spend it
           subjectively well. By that I meant: mentor more members, be a part in
-          a society-beneficial software solutions, and endless learning and
-          mastery in both hard and soft skills.
+          a society-beneficial software solutions, endless learning, and
+          craft mastery.
         </p>
       </div>
     </div>
@@ -755,6 +760,8 @@
       <a href="https://www.linkedin.com/in/ralphmartingranados/" class="bi bi-linkedin bi-footer" target="_blank"></a>
       &nbsp;
       <a href="https://www.instagram.com/martino.rr/" class="bi bi-instagram bi-footer" target="_blank"></a>
+      &nbsp;
+      <a href="https://github.com/ralphmartingranados/" class="bi bi-github bi-footer" target="_blank"></a>
     </div>
   </footer>
 
