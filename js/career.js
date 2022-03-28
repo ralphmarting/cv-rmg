@@ -87,8 +87,7 @@ career = [{
     description: `Using what I've learned from being SE II, now mentors members
       to manage their own project. Focuses now more on where to bring the
       component forward in terms of innovation. Still continues to conduct
-      training about the team, its components, and its processes to new members,
-      even those assigned outside my component.`,
+      onboarding training.`,
     awards: [{
         title: "Balanced the components handled by each member"
       }],
