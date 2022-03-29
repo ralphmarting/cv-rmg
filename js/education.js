@@ -59,61 +59,40 @@ education = [{
       React, Babel, JSX, Material UI`,
     references: [{
       link: "https://www.udemy.com/certificate/UC-615817e3-a4dc-4681-b29f-e0df7a4443a7/",
-      linkText: "Udemy Course Certificate"
+      linkText: "Course Certificate"
     }]
   },
   {
     key: 4,
     startDate: new Date(Date.UTC(2022, 0)),
-    endDate: new Date(Date.UTC(2022, 0)),
-    name: "Qt 6 Core Beginners with C++",
+    endDate: new Date(),
+    name: "Qt 6 Core with C++",
     academe: "Udemy - Online Course",
-    description: `Took this 15.5-hour long course, the first in a three-parter
-      set of courses, to have a formal knowledge on the technologies currently
-      used at work. Supplemented my prior knowledge with the basics of C++11,
-      and have learned what's new in Qt 6. Qt Creator is an IDE I got the chance
-      to explore, have learned more about, and had a more in-depth experience
-      with.`,
-    technologies: "C++11, Qt 6 Core, Qt Creator",
+    description: `A three-parter set of courses on Qt 6 Core with a combined
+      duration of 39.5 hours worth of learnings. Took it to formally advance my
+      knowledge of the technologies currently used at work. A lot of useful
+      topics were covered: Memory management, Collections, Class Views,
+      QSettings, File systems, QDebug, Encoding, Compression, Serialization,
+      Built-in Algorithms and Macros, Working with OS, Timers, and Basic
+      Threading. The advanced course picked up on Threading, moving to
+      Networking, Libraries, Databases, Testing, and finally to Deployment.`,
+    technologies: "C++11/17, Qt 6 (Core, Concurrent, Migration, Network), Qt Creator",
     references: [{
-      link: "https://www.udemy.com/certificate/UC-010f551d-719d-4548-80a8-d0dafc78a5a2/",
-      linkText: "Udemy Course Certificate"
-    }]
+        link: "https://www.udemy.com/certificate/UC-010f551d-719d-4548-80a8-d0dafc78a5a2/",
+        linkText: "Beginners Course Certificate"
+      },
+      {
+        link: "https://www.udemy.com/certificate/UC-cd3d9392-cdf8-4a04-ab04-ac8b46f443ac/",
+        linkText: "Intermediate Course Certificate"
+      },
+      {
+        link: "https://www.udemy.com/course/qt-6-core-advanced/",
+        linkText: "Advanced Course"
+      }
+    ]
   },
   {
     key: 5,
-    startDate: new Date(Date.UTC(2022, 0)),
-    endDate: new Date(Date.UTC(2022, 1)),
-    name: "Qt 6 Core Intermediate with C++",
-    academe: "Udemy - Online Course",
-    description: `This second part of the three-parter set of courses is 11
-      hours long. Going beyond the basics of Qt 6. A lot of useful topics were
-      discussed.: Memory management, Collections, Class Views, QSettings, File
-      systems, QDebug, Encoding, Compression, Serialization, Built-in Algorithms
-      and Macros, Working with OS, Timers, and Basic Threading.`,
-    technologies: "C++17, Qt 6 (Core, Concurrent, Migration)",
-    references: [{
-      link: "https://www.udemy.com/certificate/UC-cd3d9392-cdf8-4a04-ab04-ac8b46f443ac/",
-      linkText: "Udemy Course Certificate"
-    }]
-  },
-  {
-    key: 6,
-    startDate: new Date(Date.UTC(2022, 1)),
-    endDate: new Date(),
-    name: "Qt 6 Core Advanced with C++",
-    academe: "Udemy - Online Course",
-    description: `A 13-hour long course, the last part of the three-parter set
-      of courses on Qt 6 Core. Starts on Threading, moving to Networking,
-      Libraries, Databases, Testing, and finally to Deployment.`,
-    technologies: "C++17, Qt 6 (Core, Concurrent, Network)",
-    references: [{
-      link: "https://www.udemy.com/course/qt-6-core-advanced/",
-      linkText: "Udemy Course"
-    }]
-  },
-  {
-    key: 7,
     name: "Qt Design Patterns, Modern C++(C++11/14/17), Advanced Python(OOP)",
     academe: "Udemy - Online Course",
     references: [{
