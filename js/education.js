@@ -76,7 +76,7 @@ education = [{
       Built-in Algorithms and Macros, Working with OS, Timers, and Basic
       Threading. The advanced course picked up on Threading, moving to
       Networking, Libraries, Databases, Testing, and finally to Deployment.`,
-    technologies: "C++11/17, Qt 6 (Core, Concurrent, Migration, Network), Qt Creator",
+    technologies: "C++11/17, Qt 6 (Core, Concurrent, Migration, Network, SQL, Test), Qt Creator",
     references: [{
         link: "https://www.udemy.com/certificate/UC-010f551d-719d-4548-80a8-d0dafc78a5a2/",
         linkText: "Beginners Course Certificate"
