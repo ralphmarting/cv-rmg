@@ -65,7 +65,7 @@ education = [{
   {
     key: 4,
     startDate: new Date(Date.UTC(2022, 0)),
-    endDate: new Date(),
+    endDate: new Date(Date.UTC(2022, 2)),
     name: "Qt 6 Core with C++",
     academe: "Udemy - Online Course",
     description: `A three-parter set of courses on Qt 6 Core with a combined
@@ -86,8 +86,8 @@ education = [{
         linkText: "Intermediate Course Certificate"
       },
       {
-        link: "https://www.udemy.com/course/qt-6-core-advanced/",
-        linkText: "Advanced Course"
+        link: "https://www.udemy.com/certificate/UC-ffbbdb7d-2062-4fa2-81a8-495e9a50cb5c/",
+        linkText: "Advanced Course Certificate"
       }
     ]
   },
