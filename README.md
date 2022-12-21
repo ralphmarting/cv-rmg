@@ -77,3 +77,4 @@ Now I maintain it to keep the content information up to date. As soon as I gain 
   - [x] Education
   - [ ] Skills
 - [ ] Refactor CSS (Make it more Modular/DRY)
+- [ ] Auto-generate PDF feature

@@ -93,7 +93,21 @@ education = [{
   },
   {
     key: 5,
-    name: "Qt Design Patterns, Modern C++(C++11/14/17), Advanced Python(OOP)",
+    startDate: new Date(Date.UTC(2022, 11)),
+    endDate: new Date(),
+    name: "Advanced Python: Build 10 Advanced OOP Applications",
+    academe: "Udemy - Online Course",
+    description: `OOP Approach to Python Development`,
+    technologies: "Python",
+    references: [{
+        link: "https://www.udemy.com/course/the-python-pro-course/",
+        linkText: "Course"
+      }
+    ]
+  },
+  {
+    key: 6,
+    name: "Qt Design Patterns, Modern C++(C++11/14/17)",
     academe: "Udemy - Online Course",
     references: [{
         link: "https://www.udemy.com/course/qt-5-design-patterns/",
@@ -102,10 +116,6 @@ education = [{
       {
         link: "https://www.udemy.com/course/beg-modern-cpp/",
         linkText: "C++ Course"
-      },
-      {
-        link: "https://www.udemy.com/course/the-python-pro-course/",
-        linkText: "Python Course"
       }
     ]
   }

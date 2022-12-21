@@ -81,13 +81,14 @@ career = [{
   {
     key: 4,
     startDate: new Date(Date.UTC(2021, 8)),
-    endDate: new Date(),
+    endDate: new Date(Date.UTC(2022, 8)),
     role: "Software Engineer III",
     company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
     description: `Using what I've learned from being SE II, now mentors members
       to manage their own project. Focuses now more on where to bring the
-      component forward in terms of innovation. Still continues to conduct
-      onboarding training.`,
+      component forward in terms of innovation. Still continues to conduct and
+      now organize the onboarding training - technicals of the components I
+      handle, the team, its processes, and culture.`,
     awards: [{
         title: "Balanced the components handled by each member"
       }],
@@ -96,6 +97,20 @@ career = [{
   },
   {
     key: 5,
+    startDate: new Date(Date.UTC(2022, 9)),
+    endDate: new Date(),
+    role: "Deputy Section Manager",
+    company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
+    description: `A new role that requires new set of competencies, and
+      perspective. Co-managing the team with main purpose of organizing project
+      efforts. Eager to mentor, and offer the resources and opportunities
+      available to me all to cultivate each member's technicals, and
+      professional character.`,
+    technologies: `People Management, Problem Solving, Leadership`,
+    location: "Cebu City, Cebu, Philippines"
+  },
+  {
+    key: 6,
     role: "Any Programming Profession with related technologies",
     company: "Company that shows they really care about their employees",
     description: `Ideally, in a workspace where my potential is well utilized.
