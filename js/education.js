@@ -93,23 +93,6 @@ education = [{
   },
   {
     key: 5,
-    startDate: new Date(Date.UTC(2022, 11)),
-    endDate: new Date(),
-    name: "Project Management",
-    academe: "Udemy - Online Course",
-    description: `A 7.5-hour course that covers all the fundamental knowledge,
-      concepts, tools, and techniques including how a project works and how to
-      manage it best. Start from the theoretical basics and progressively
-      build upon that knowledge.`,
-    technologies: "Project Management",
-    references: [{
-        link: "https://www.udemy.com/course/the-python-pro-course/",
-        linkText: "Course"
-      }
-    ]
-  },
-  {
-    key: 6,
     name: "Advanced Python OOP, Qt Design Patterns",
     academe: "Udemy - Online Course",
     references: [{
