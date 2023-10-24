@@ -101,11 +101,15 @@ career = [{
     endDate: new Date(),
     role: "Deputy Section Manager",
     company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
-    description: `A new role that requires new set of competencies, and
-      perspective. Co-managing the team with main purpose of organizing project
-      efforts. Eager to mentor, and offer the resources and opportunities
-      available to me all to cultivate each member's technicals, and
-      professional character.`,
+    description: `Some of my functions: Data Scientist - making sense of all
+      the data; Career Coach - cultivate each member's technicals, and
+      professional character, sharing opportunities; Assistant - tracks
+      progress, and organize project efforts; Advocate - healthy work mental
+      health, boosting morale; Negotiator - arriving at a compromise that
+      benefits all interested parties; among others.
+      <br>
+      Intrinsically, the value I add roots from everything that makes me
+      unique as a person.`,
     awards: [{
         title: "First Up-skill program in section's history"
       },
