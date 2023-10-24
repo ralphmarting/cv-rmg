@@ -106,13 +106,23 @@ career = [{
       efforts. Eager to mentor, and offer the resources and opportunities
       available to me all to cultivate each member's technicals, and
       professional character.`,
+    awards: [{
+        title: "First Up-skill program in section's history"
+      },
+      {
+        title: "New component acquisition"
+      },
+      {
+        title: "Internal Quality Auditor"
+      }
+    ],
     technologies: `People Management, Problem Solving, Leadership`,
     location: "Cebu City, Cebu, Philippines"
   },
   {
     key: 6,
     role: "Any Programming Profession with related technologies",
-    company: "Company that shows they really care about their employees",
+    company: "Company with good track record in regards with employee welfare",
     description: `Ideally, in a workspace where my potential is well utilized.
       A lot of opportunities to sharpen my skills, and develop new ones.
       <br>

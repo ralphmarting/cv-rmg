@@ -93,6 +93,29 @@ education = [{
   },
   {
     key: 5,
+    startDate: new Date(Date.UTC(2023, 4)),
+    endDate: new Date(Date.UTC(2023, 4)),
+    name: "ISO 9001 Internal Quality Audit (IQA) Training",
+    academe: "AGF Consulting Group, KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
+    description: `As part of new function as KDDP's IQA, these are prerequisite 
+      internally and externally facilitated trainings to audit ISO 9001 - 
+      Quality Management Standard. Equipping us with knowledge on performing 
+      internal QMS audits based on ISO 19011:2018 through discussions and audit
+      exercises. This also encouraged me to perform my management duties by
+      conforming to internationally recognized standards.`,
+    technologies: "ISO 9001, ISO 19011, IQA",
+    references: [{
+        link: "https://github.com/ralphmartingranados/cv-rmg/blob/b5b207850fc0d69b196ce1ac6aca2c7e69a85aab/img/resources/KDDP_Certificate_of_Participation.pdf",
+        linkText: "KDDP Certificate"
+      },
+      {
+        link: "https://github.com/ralphmartingranados/cv-rmg/blob/main/img/resources/AGF_Certification.png?raw=true",
+        linkText: "AGF Certificate"
+      }
+    ]
+  },
+  {
+    key: 6,
     name: "Advanced Python OOP, Qt Design Patterns",
     academe: "Udemy - Online Course",
     references: [{
