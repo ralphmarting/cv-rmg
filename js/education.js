@@ -95,7 +95,7 @@ education = [{
     key: 5,
     startDate: new Date(Date.UTC(2023, 4)),
     endDate: new Date(Date.UTC(2023, 4)),
-    name: "ISO 9001 Internal Quality Audit (IQA) Training",
+    name: "ISO 19011:2018 Internal Quality Audit (IQA) Training",
     academe: "AGF Consulting Group, KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
     description: `As part of new function as KDDP's IQA, these are prerequisite 
       internally and externally facilitated trainings to audit ISO 9001 - 
