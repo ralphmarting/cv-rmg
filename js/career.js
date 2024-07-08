@@ -84,11 +84,12 @@ career = [{
     endDate: new Date(Date.UTC(2022, 8)),
     role: "Software Engineer III",
     company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
-    description: `Using what I've learned from being SE II, now mentors members
-      to manage their own project. Focuses now more on where to bring the
-      component forward in terms of innovation. Still continues to conduct and
-      now organize the onboarding training - technicals of the components I
-      handle, the team, its processes, and culture.`,
+    description: `Drawing upon my experience as a Senior Software Engineer II,
+      I now guide team members in assuming ownership of their projects. My 
+      current focus lies in advancing components through innovative strategies.
+      Additionally, I oversee the organization and execution of onboarding 
+      training, covering technical aspects of the components I oversee, team 
+      dynamics, processes, and the team's culture.`,
     awards: [{
         title: "Balanced the components handled by each member"
       }],
@@ -98,18 +99,21 @@ career = [{
   {
     key: 5,
     startDate: new Date(Date.UTC(2022, 9)),
-    endDate: new Date(),
+    endDate: new Date(Date.UTC(2024, 3)),
     role: "Deputy Section Manager",
     company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
-    description: `Some of my functions: Data Scientist - making sense of all
-      the data; Career Coach - cultivate each member's technicals, and
-      professional character, sharing opportunities; Assistant - tracks
-      progress, and organize project efforts; Advocate - healthy work mental
-      health, boosting morale; Negotiator - arriving at a compromise that
-      benefits all interested parties; among others.
+    description: `In my multifaceted role, I function akin to a Data Scientist, 
+      tasked with extracting meaningful insights from all the raw data. As a 
+      Career Coach, I nurture the technical expertise and professional growth of 
+      each team member while facilitating access to valuable opportunities. 
+      Additionally, I function as an Assistant, diligently monitoring progress 
+      and coordinating project efforts. As an Advocate, I prioritize mental 
+      health and bolster team morale, ensuring a supportive work environment. 
+      Moreover, my role as a Negotiator involves skillfully achieving 
+      compromises that benefit all stakeholders.
       <br>
-      Intrinsically, the value I add roots from everything that makes me
-      unique as a person.`,
+      These roles, among others, collectively highlight the intrinsic value I 
+      bring, rooted in my unique qualities and capabilities.`,
     awards: [{
         title: "First Up-skill program in section's history"
       },
@@ -125,6 +129,26 @@ career = [{
   },
   {
     key: 6,
+    startDate: new Date(Date.UTC(2024, 3)),
+    endDate: new Date(),
+    role: "Software Engineer IV",
+    company: "KYOCERA Document Solutions Development Philippines, Inc. (KDDP)",
+    description: `I have transitioned back to an equivalent senior software 
+      engineer position with the added capability of delivering tasks with 
+      increased depth and providing more valuable insights. Now with a 
+      renewed focus on spearheading innovative components.`,
+    awards: [{
+        title: "Lead roles in both the team's new components"
+      },
+      {
+        title: "Process improvements"
+      }
+    ],
+    technologies: `Kaizen, Kuwashii`,
+    location: "Cebu City, Cebu, Philippines"
+  },
+  {
+    key: 7,
     role: "Any Programming Profession with related technologies",
     company: "Company with good track record in regards with employee welfare",
     description: `Ideally, in a workspace where my potential is well utilized.

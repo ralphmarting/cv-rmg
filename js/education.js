@@ -116,15 +116,11 @@ education = [{
   },
   {
     key: 6,
-    name: "Advanced Python OOP, Qt Design Patterns",
+    name: "Advanced Python OOP",
     academe: "Udemy - Online Course",
     references: [{
         link: "https://www.udemy.com/course/the-python-pro-course/",
         linkText: "Advanced Python OOP Course"
-      },
-      {
-        link: "https://www.udemy.com/course/qt-5-design-patterns/",
-        linkText: "Design Patterns Course"
       }
     ]
   }
